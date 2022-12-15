@@ -1,0 +1,155 @@
+:root
+{
+    --white: #FFFFFF;
+    --blue: #167BF7;
+    --gray: #c0c0c0;
+    --gray2: #F9F9F9;
+    --bgcolor: #00030C;
+    --font: 'Inter';
+}
+
+body
+{
+    background-color: var(--bgcolor);
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.container__botao {
+    background-color: var(--blue);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--white);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--white)
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--gray);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem
+{
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa 
+{
+    margin: 0 6em;
+}
+
+.secundario
+{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem
+{
+    width: 80%;
+
+}
+
+.descricao__titulo
+{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--white);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto
+{
+    color: var(--gray2);
+    opacity: 0.8;
+}
+
+.secundario__botao
+{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a
+{
+    text-decoration: none;
+    color: var(--white);
+    list-style: none;
+    padding: 1em;
+}
+
+.lista__link a:hover
+{
+    text-decoration: underline;
+}
+
+
+.rodape__texto
+{
+    color: var(--gray);
+    margin: 3em 0;
+}
+
